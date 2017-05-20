@@ -92,7 +92,7 @@ func (c *client) disableAuthz(url string) error {
 		Resource string `json:"resource"`
 		Status   string `jsom:"status"`
 	}{
-		Resource: "challenge",
+		Resource: "authz",
 		Status:   "deactivated",
 	})
 	if err != nil {
