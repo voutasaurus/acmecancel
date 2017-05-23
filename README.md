@@ -1,3 +1,7 @@
+# acmecancel
+
+A tool for ACME to deactivate a pending authz.
+
 # Installation
 
 	go get -u github.com/voutasaurus/acmecancel
